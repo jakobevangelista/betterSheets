@@ -1,12 +1,5 @@
-// import { SignIn } from "@clerk/nextjs";
-
-// export default function Page() {
-//   return <SignIn />;
-// }
-
 import { SignIn } from "@clerk/nextjs";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
-import Image from "next/image";
 
 export default function Example() {
   return (
@@ -36,13 +29,6 @@ export default function Example() {
       </svg>
       <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
-          {/* <Image
-            className="h-11"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-            alt="Your Company"
-            width={118}
-            height={46}
-          /> */}
           <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-600">
             <span>Just shipped v1.0</span>
             <ChevronRightIcon
@@ -65,12 +51,6 @@ export default function Example() {
             >
               Get started
             </a>
-            {/* <a
-              href="#"
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              Learn more <span aria-hidden="true">→</span>
-            </a> */}
           </div>
         </div>
         <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
